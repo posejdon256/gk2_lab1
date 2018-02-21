@@ -15,18 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\dxptr.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\exceptions.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\window.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\windowApplication.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="dxDevice.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -36,20 +24,20 @@
     <ClInclude Include="dxApplication.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="dxptr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="exceptions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="windowApplication.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\exceptions.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\window.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\windowApplication.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="dxDevice.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -59,5 +47,21 @@
     <ClCompile Include="dxStructures.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="exceptions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="windowApplication.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="vs.hlsl" />
+    <FxCompile Include="ps.hlsl" />
   </ItemGroup>
 </Project>
