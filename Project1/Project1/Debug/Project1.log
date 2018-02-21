@@ -1,7 +1,0 @@
-﻿  dxApplication.cpp
-c:\users\posejdon256\documents\gk2_lab1\project1\project1\dxapplication.cpp(2): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-  Project1.vcxproj -> C:\Users\posejdon256\Documents\gk2_lab1\Project1\Debug\Project1.exe
-  Project1.vcxproj -> C:\Users\posejdon256\Documents\gk2_lab1\Project1\Debug\Project1.pdb (Partial PDB)
-  C:\Users\posejdon256\Documents\gk2_lab1\Project1\Debug\ps.cso
-  C:\Users\posejdon256\Documents\gk2_lab1\Project1\Debug\vs.cso
-          2 file(s) copied.
