@@ -7,9 +7,9 @@ using namespace DirectX;
 
 vector<XMFLOAT2> CreateTriangleVertices() {
 	vector<XMFLOAT2> _vector;
-	_vector.push_back(XMFLOAT2(1.0f, 1.0f));
-	_vector.push_back(XMFLOAT2(0.9f, 0.0f));
-	_vector.push_back(XMFLOAT2(0.7f, 0.7f));
+	_vector.push_back(XMFLOAT2(-0.4f, -0.4f));
+	_vector.push_back(XMFLOAT2(-0.4f, 0.4f));
+	_vector.push_back(XMFLOAT2(0.4f, -0.4f));
 	return _vector;
 }
 
